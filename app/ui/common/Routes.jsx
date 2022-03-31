@@ -8,7 +8,7 @@ const NotFoundPage = React.lazy(() => import('./NotFoundPage'));
 
 export const RoutePaths = {
   ROOT: '/',
-  TASKS: '/tasks',
+  TASKS: '/orders.html',
 };
 
 export const Routes = () => (
