@@ -21,16 +21,7 @@ export default function TasksPage() {
   }).count();
 
   return (
-    <>
-      <TasksHeader />
-      <TaskForm />
-      <TaskItems
-        isLoading={isLoading}
-        tasks={tasks}
-        pendingCount={pendingCount}
-        hideDone={hideDone}
-        setHideDone={setHideDone}
-      />
-    </>
+    <span>Formularios</span>
+
   );
 }
